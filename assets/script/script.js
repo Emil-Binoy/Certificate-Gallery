@@ -8,7 +8,7 @@ images.forEach((img,index)=>{
 
 function showPopup(src, selectedIndex){
     document.getElementById('popup-img').src =src;
-    document.getElementById('popup').style.display = "block";
+     document.getElementById('popup').classList.remove('hidden');
     document.querySelector('.thumbnail-container').innerHTML = "";
 
     images.forEach((img, i)=>{
@@ -31,6 +31,6 @@ function showPopup(src, selectedIndex){
     });
 }
 
-document.getElementById('close').addEventListener('click',()=>{
-    document.getElementById('popup').style.display= "none";
-})
+document.getElementById('close').addEventListener('click', () => {
+    document.getElementById('popup').classList.add('hidden');
+});

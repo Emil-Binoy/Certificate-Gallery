@@ -19,13 +19,14 @@ body{
   width: 100%;
   max-width: 300px;
   height: auto;
-  
+  margin: 10px;
   transition: transform 0.3s;
 }
 
-.hidden{
-    display: none;
+#popup.hidden {
+  display: none !important;
 }
+
 .material-symbols-outlined{
     margin-left: 90em;    
 }
