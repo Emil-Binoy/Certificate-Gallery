@@ -60,8 +60,7 @@ body{
 }
 
 #popup-img{
-   
-    margin-top: 50px;
+   margin: 20px 0;
     max-width: 90%;
     max-height: 80vh;
 }
@@ -75,7 +74,7 @@ body{
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 20px;
+  margin: 5px 0;
   flex-wrap: wrap;
   
 }
